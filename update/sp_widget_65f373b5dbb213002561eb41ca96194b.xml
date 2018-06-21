@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.ag_widget{
+  width:100%;
+  padding: 8px;
+  background-color:#00908a;
+  color: #fff;
+  border-radius: 4px;
+  }
+  
+  h3 agw_white{
+  margin-top: 10px;
+  color: #fff !important;
+  }
+  
+  agw-btn{
+  background-color:#00908a !important;
+  color: #fff;
+  border-radius: 4px;
+  }
+
+  .btn {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  background-color:#066f6b;
+  color: #fff !important;
+}
+
+.btn:focus, .btn.focus, .btn:active:focus, .btn.focus:active, .btn.active:focus, .btn.active.focus {
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+.btn:hover, .btn:focus, .btn.focus { 
+	text-decoration: none;
+  background-color:#065f5b;
+  color: #fff !important;
+}
+.btn:active, .btn.active {
+	outline: 0;
+	background-image: none;
+	-webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+	box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+	cursor: not-allowed;
+	opacity: .65;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>ag-widget</id>
+        <internal>false</internal>
+        <link/>
+        <name>AG Widget</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>Admin NeedIt</sys_created_by>
+        <sys_created_on>2018-06-20 19:32:55</sys_created_on>
+        <sys_id>65f373b5dbb213002561eb41ca96194b</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>AG Widget</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sp_widget_65f373b5dbb213002561eb41ca96194b</sys_update_name>
+        <sys_updated_by>Admin NeedIt</sys_updated_by>
+        <sys_updated_on>2018-06-20 20:00:32</sys_updated_on>
+        <template><![CDATA[<div class='ag_widget'>
+  <h2 class='agw_white'>Process Management
+  </h2>
+  </h2>
+  <p>Paragraph goes here....</p>
+   <button class='btn agw-btn'>
+     Action Button
+</button>
+</button>
+</div>]]></template>
+    </sp_widget>
+</record_update>
